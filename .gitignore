@@ -1,0 +1,33 @@
+# .gitignore
+
+# Go
+go.sum
+
+# Environment Variables
+.env
+.env.*
+
+# Builds
+bin/
+tmp/
+
+# Certificates
+*.pem
+*.pub
+
+# Tests
+tests/unit/reports/**/*
+
+# Logs
+*.log
+*.logs
+
+# Temporary Files
+*.tar
+*.swp
+
+# Operating System
+.DS_Store
+
+# Editor
+.vscode/
