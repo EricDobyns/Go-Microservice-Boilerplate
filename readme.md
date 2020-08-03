@@ -14,6 +14,11 @@ This repository contains a general mono-repo microservice boilerplate. This is n
 Note: All `make` commands should be run from the project's root directory
 ```
 
+```
+Note: To support hot-reloading install the fswatch dependency via homebrew:
+brew install fswatch
+```
+
 #### Start all services
 This command is meant to have minimal build log output. If a build error occurs run `make build` to debug.
 ``` bash
